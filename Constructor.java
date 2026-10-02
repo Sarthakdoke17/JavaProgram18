@@ -1,12 +1,12 @@
 class Student {
     String name;
 
-    // Default constructor
+    //Default Constructor
     Student() {
         name = "Unknown";
     }
 
-    // Parameterized constructor
+    // Parameterized Constructor
     Student(String name) {
         this.name = name;
     }
@@ -15,7 +15,6 @@ class Student {
         System.out.println("Student Name: " + name);
     }
 }
-
 public class Main {
     public static void main(String[] args) {
         Student s1 = new Student();
